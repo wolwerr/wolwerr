@@ -1,4 +1,4 @@
-## Oiii! Eu sou op Ricardo Machado
+## Hi!! I'm Ricardo Machado
  <div>
   <a href="https://github.com/wolwerr">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wolwerr&theme=blue-green"/>
