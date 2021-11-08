@@ -19,7 +19,8 @@
  <img align="center" alt="wolwerr-Php" height="30" width="40" src=https://i.imgur.com/eWcYQfi.png>
  <img align="center" alt="wolwerr-Docker" height="30" width="40" src="https://i.imgur.com/BsbdHTN.png">
  <img align="center" alt="wolwerr-MySql" height="30" width="40" src="https://i.imgur.com/G8JdM0k.png">
- <img align="center" alt="wolwerr-MySql" height="30" width="40" src="https://i.imgur.com/Q5CMCe8.png">
+ <img align="center" alt="wolwerr-VueJs" height="30" width="40" src="https://i.imgur.com/Q5CMCe8.png">
+ <img align="center" alt="wolwerr-SqlServer" height="30" width="40" src="https://i.imgur.com/2ZMMcUC.png">
  
  
   </div>
