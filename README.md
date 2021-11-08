@@ -15,7 +15,14 @@
   <img align="center" alt="wolwerr-Angular" height="30" width="30" src="https://i.imgur.com/7Ddf1ZO.png">
   <img align="center" alt="wolwerr-Java" height="30" width="30" src="https://i.imgur.com/lcexh9M.png">
   <img align="center" alt="wolwerr-Java" height="30" width="40" src="https://i.imgur.com/kWIvhoB.png">
-   
+  <img align="center" alt="wolwerr-Java" height="30" width="40" src="https://i.imgur.com/qWHa1mL.png">
+ <img align="center" alt="wolwerr-Laravel" height="30" width="40" src="https://i.imgur.com/qWHa1mL.png">
+ <img align="center" alt="wolwerr-Php" height="30" width="40" src=https://i.imgur.com/eWcYQfi.png>
+ <img align="center" alt="wolwerr-Docker" height="30" width="40" src="https://i.imgur.com/BsbdHTN.png">
+ <img align="center" alt="wolwerr-MySql" height="30" width="40" src="https://i.imgur.com/G8JdM0k.png">https://i.imgur.com/G8JdM0k.png
+ 
+ 
+ 
   </div>
  
   ##
