@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-   <img height="500em" src="[https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif](https://readme-typing-svg.herokuapp.com/?lines=Desenvolvedor%20Full-Stack&font=Fira%20Code&center=true&width=440&height=45&color=blue&vCenter=true&size=22)"/>
+   <img height="500em" <a href="https://imgur.com/A6uiN0R"><img src="https://i.imgur.com/A6uiN0R.gif" title="source: imgur.com" /></a>/>
 </div>
 
 <p align="center">
