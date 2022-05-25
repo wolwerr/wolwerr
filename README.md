@@ -1,8 +1,14 @@
 ## Hi!! I'm Ricardo Machado
 
+![Header](./your-header-image-name.png)
+
 <div align="center">
    <img height="500em" src="https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif"/>
 </div>
+
+<p align="center">
+  <a href="https://github.com/Laracf/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=Desenvolvedora%20Full-Stack&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22"  ></a>
+</p>
 
 ##
  
