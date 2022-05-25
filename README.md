@@ -5,15 +5,14 @@
 </div>
 
 <div align="center">
-   <img height="500em" <a href="https://imgur.com/A6uiN0R"><img src="https://i.imgur.com/A6uiN0R.gif" title="source: imgur.com" /></a>/>
+   <img height="500em" <a href="https://imgur.com/A6uiN0R"><img src="https://i.imgur.com/A6uiN0R.gif" title="source: imgur.com" /></a>
 </div>
-
-<p align="center">
-  <a href="https://github.com/Laracf/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=Desenvolvedora%20Full-Stack&font=Fira%20Code&center=true&width=440&height=45&color=f75c7e&vCenter=true&size=22"  ></a>
-</p>
 
 ##
  
+ <p>
+  <a href="https://github.com/Laracf/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?lines=Desenvolvedor%20Full-Stack&font=Fira%20Code&center=true&width=440&height=45&color=bluevCenter=true&size=22"  ></a>
+</p>
  <div>
   <a href="https://github.com/wolwerr">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wolwerr&theme=blue-green"/>
