@@ -1,6 +1,8 @@
 ## Hi!! I'm Ricardo Machado
 
-![Header](./your-header-image-name.png)
+<div align="center">
+   <a href="https://imgur.com/WjhEmUW"><img src="https://i.imgur.com/WjhEmUW.png" title="source: imgur.com" /></a>
+</div>
 
 <div align="center">
    <img height="500em" src="https://user-images.githubusercontent.com/70382532/138322189-2db8df52-9dcb-40a0-88a8-c365466bd33d.gif"/>
