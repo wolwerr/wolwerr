@@ -12,7 +12,7 @@
 ##
 
  <p>
-  <a href="https://github.com/wolwerr"><img src="https://readme-typing-svg.herokuapp.com/?lines=Desenvolvedor%20Full-Stack&font=Fira%20Code&center=true&width=440&height=45&color=bluevCenter=true&size=22"  ></a>
+  <a href="https://github.com/wolwerr"><img src="https://readme-typing-svg.herokuapp.com/?lines=Software%20Engineer&font=Fira%20Code&center=true&width=440&height=45&color=bluevCenter=true&size=22"  ></a>
 </p>
 
 ##
@@ -51,12 +51,6 @@
   <a href="https://tortoisesvn.net/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tortoisegit/tortoisegit-original.svg" height="40" width="52" alt="tortoisegit logo"  />
   <a href="https://tomcat.apache.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" height="40" width="52" alt="tomcat logo"  />
 </div>
-     
-##  
-     
-<div align="center">
-  <a href="https://github.com/wolwerr/" target="_blank"><img src="https://profile-counter.glitch.me/wolwerr/count.svg?"  />
-</div>
 
 ##
 
@@ -86,3 +80,9 @@
 ![Snake animation](https://github.com/rafaballerini/rafaballerini/blob/output/github-contribution-grid-snake.svg)
 
 ##
+     
+<div align="center">
+  <a href="https://github.com/wolwerr/" target="_blank"><img src="https://profile-counter.glitch.me/wolwerr/count.svg?"  />
+</div> 
+ 
+##  
