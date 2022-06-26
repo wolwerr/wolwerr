@@ -51,10 +51,11 @@
   <a href="https://tortoisesvn.net/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tortoisegit/tortoisegit-original.svg" height="40" width="52" alt="tortoisegit logo"  />
   <a href="https://tomcat.apache.org/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" height="40" width="52" alt="tomcat logo"  />
 </div>
+     
 ##  
      
 <div align="center">
-  <img src="https://profile-counter.glitch.me/wolwerr/count.svg?"  />
+  <a href="https://github.com/wolwerr/" target="_blank"><img src="https://profile-counter.glitch.me/wolwerr/count.svg?"  />
 </div>
 
 ##
