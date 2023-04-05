@@ -17,6 +17,9 @@
 
 ##
 
+<div align="center">
+<h3> My Stacks </h3>
+
 <div align="left">
   <a href="https://java.com" target="_blank"><a href="https://java.com/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" width="52" alt="java logo"  />
   <a href="https://spring.io/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" width="52" alt="spring logo"  />
@@ -53,6 +56,9 @@
 </div>
 
 ##
+     
+<div align="center">
+<h3> My Contacts </h3>
 
 <div align="left">
   <a href="https://www.linkedin.com/in/ricardolmachado/" target="_blank">
