@@ -86,7 +86,7 @@
 
 ##
 
-![Snake animation](https://github.com/wolwerr/wolwerr/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/wolwerr/wolwerr/blob/output/github-user-contribution.svg)
 
 ##
      
