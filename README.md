@@ -93,10 +93,6 @@
 </picture>
 
 ##
-     
-[![Ashutosh's github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=wolwerr&theme=react-dark)]([https://www.linkedin.com/in/ricardolmachado/])
-
-##
 
 ![](./profile-3d-contrib/profile-gitblock.svg)
      
