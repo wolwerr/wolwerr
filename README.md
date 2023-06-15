@@ -92,6 +92,10 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wolwerr/wolwerr/output/github-contribution-grid-snake.svg">
 </picture>
 
+##  GitHub Trophies
+     
+![](https://github-profile-trophy.vercel.app/?username=wolwerr&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+
 ##
 
 ![](./profile-3d-contrib/profile-gitblock.svg)
