@@ -1,3 +1,4 @@
+<a href="https://github.com/wolwerr"><img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&fontColor=45664567"/></a>
 <div align="center">
    <a href="https://i.imgur.com/FnHj2ZQ.png"><img src="https://i.imgur.com/FnHj2ZQ.png" title="source: imgur.com" /></a>
 </div>
@@ -115,3 +116,4 @@
 </div> 
  
 ##  
+<a href="https://github.com/wolwerr"><img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&fontColor=45664567&reversal=true&section=footer"/></a>
