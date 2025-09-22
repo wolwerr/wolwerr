@@ -24,9 +24,10 @@
 ##
 
  <p>
-  <a href="https://github.com/wolwerr"><img src="https://readme-typing-svg.herokuapp.com/?lines=Software%20Engineer&font=Fira%20Code&center=true&width=440&height=45&color=bluevCenter=true&size=22"  ></a>
+  <a href="https://github.com/wolwerr"><img src="https://readme-typing-svg.herokuapp.com/?lines=Software%20Architect&font=Fira%20Code&center=true&width=440&height=45&color=bluevCenter=true&size=22"  ></a>
 </p>
 
+  ![](https://komarev.com/ghpvc/?username=wolwerr&style=flat-square)
 ##
 
 <div align="center">
@@ -111,9 +112,4 @@
      
 ##
 
-<div align="center">
-  <a href="https://github.com/wolwerr/" target="_blank"><img src="https://profile-counter.glitch.me/wolwerr/count.svg?"  />
-</div> 
- 
-##  
 <a href="https://github.com/wolwerr"><img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&fontColor=45664567&reversal=true&section=footer"/></a>
