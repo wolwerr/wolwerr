@@ -32,7 +32,7 @@
 <p align="center">
   <a href="https://github.com/wolwerr">
     <img
-      src="https://readme-typing-svg.herokuapp.com/?lines=Software%20Architect&font=Fira%20Code&center=true&vCenter=true&width=440&height=45&color=7FFF00&size=22"
+      src="https://readme-typing-svg.herokuapp.com/?lines=Solution%20Architect&font=Fira%20Code&center=true&vCenter=true&width=440&height=45&color=7FFF00&size=22"
       alt="Solution Architect"
     />
   </a>
