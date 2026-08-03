@@ -4,21 +4,65 @@
 </div>
 
 ##
+## 📊 Estatísticas do GitHub
 
-<div align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=wolwerr&show_icons=true&bg_color=00000000" height="145" alt="stats graph"/>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=wolwerr&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&bg_color=00000000&hide_border=false" height="145" alt="languages graph"/>   
-   <img src="https://github-readme-streak-stats-eight.vercel.app/?user=wolwerr&theme=transparent&show_icons=true&bg_color=00000000" height="145" alt="wolwerr" />
-   
-</div>
+<p align="center">
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs?username=wolwerr&layout=compact&card_width=330&langs_count=5&theme=chartreuse-dark&bg_color=00000000&hide_border=true&custom_title=Principais%20linguagens"
+    width="330"
+    height="155"
+    alt="Principais linguagens"
+  />
+  <img
+    src="https://github-readme-streak-stats-eight.vercel.app/?user=wolwerr&theme=chartreuse-dark&background=00000000&hide_border=true"
+    width="330"
+    height="155"
+    alt="Sequência de contribuições"
+  />
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=wolwerr&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&commits_year=2026&bg_color=00000000&hide_border=true&custom_title=Estat%C3%ADsticas%20de%202026"
+    width="330"
+    height="155"
+    alt="Estatísticas de 2026"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs?username=wolwerr&layout=compact&card_width=330&theme=chartreuse-dark&langs_count=8&size_weight=0.5&count_weight=0.5&bg_color=00000000&hide_border=true&custom_title=Linguagens%20mais%20usadas"
+    width="330"
+    height="155"
+    alt="Linguagens mais usadas"
+  />
+  <img
+    src="https://github-stats-extended.vercel.app/api?username=wolwerr&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&rank_icon=github&bg_color=00000000&hide_border=true&custom_title=Estat%C3%ADsticas%20gerais"
+    width="330"
+    height="155"
+    alt="Estatísticas gerais"
+  />
+  <img
+    src="https://github-stats-extended.vercel.app/api/top-langs?username=wolwerr&layout=compact&card_width=330&theme=chartreuse-dark&langs_count=8&size_weight=1&count_weight=0&bg_color=00000000&hide_border=true&custom_title=Distribui%C3%A7%C3%A3o%20das%20linguagens"
+    width="330"
+    height="155"
+    alt="Distribuição das linguagens"
+  />
+</p>
 
 ##
 
- <p>
-  <a href="https://github.com/wolwerr"><img src="https://readme-typing-svg.herokuapp.com/?lines=Software%20Architect&font=Fira%20Code&center=true&width=440&height=45&color=bluevCenter=true&size=22"  ></a>
+<p align="center">
+  <a href="https://github.com/wolwerr">
+    <img
+      src="https://readme-typing-svg.herokuapp.com/?lines=Software%20Architect&font=Fira%20Code&center=true&vCenter=true&width=440&height=45&color=7FFF00&size=22"
+      alt="Software Architect"
+    />
+  </a>
+  <img
+    src="https://komarev.com/ghpvc/?username=wolwerr&style=flat-square&color=7FFF00&label=PROFILE+VIEWS"
+    alt="Visualizações do perfil"
+  />
 </p>
 
-  ![](https://komarev.com/ghpvc/?username=wolwerr&style=flat-square)
 ##
 
 <div align="center">
