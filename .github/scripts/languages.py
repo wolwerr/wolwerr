@@ -88,15 +88,21 @@ def language_of(path):
 
 
 def count_repo(path):
-    cmd = ["git", "-c", "core.quotepath=off", "-C", path, "log", "--all", "--no-merges",
-           "--no-renames", "--numstat", "--format="]
+    cmd = [
+        "git", "-c", "core.quotepath=off", "-C", path,
+        "log", "--all", "--no-merges", "--no-renames",
+        "--regexp-ignore-case", "--numstat", "--format=",
+    ]
     for author in AUTHORS:
-        cmd += ["--author", author]
-    out = subprocess.run(cmd, capture_output=True, text=True, errors="replace").stdout
+        cmd.extend(["--author", author])
+
+    result = subprocess.run(
+        cmd, capture_output=True, text=True, errors="replace", check=True,
+    )
     stats = Counter()
-    for line in out.splitlines():
+    for line in result.stdout.splitlines():
         parts = line.split("\t", 2)
-        if len(parts) != 3 or parts[0] == "-":
+        if len(parts) != 3 or not parts[0].isdigit():
             continue
         lang = language_of(parts[2])
         if lang:
