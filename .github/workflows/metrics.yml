@@ -31,13 +31,15 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Gerar card de linguagens por contribuições recentes
+      - name: Gerar card de linguagens por linhas adicionadas
         run: python .github/scripts/languages.py
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_USER: wolwerr
           LIMIT: "8"
-          MAX_REPOS: "100"
+          # Nomes e e-mails gravados nos commits históricos
+          AUTHORS: wolwerr,ricardo@dtmm.com.br,ricardo luis machado,ricardo@ricardolm.net,Ricardo Machado
+          AFFILIATION: owner
 
       - name: Gerar cards de contribuições e estatísticas
         run: python .github/scripts/profile_metrics.py
