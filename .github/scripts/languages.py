@@ -122,7 +122,7 @@ def render(stats):
     top = stats.most_common(LIMIT)
     width, bar_x, bar_w = 325, 25, 275
     rows = math.ceil(len(top) / 2)
-    height = max(155, 82 + rows * 22 + 8)
+    height = max(155, 82 + rows * 22 - 8)
 
     segments, x = [], bar_x
     for lang, n in top:
