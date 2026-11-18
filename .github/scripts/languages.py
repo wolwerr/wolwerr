@@ -27,8 +27,7 @@ EXT = {
     ".java": "Java", ".kt": "Kotlin", ".kts": "Kotlin",
     ".js": "JavaScript", ".jsx": "JavaScript", ".mjs": "JavaScript", ".cjs": "JavaScript",
     ".ts": "TypeScript", ".tsx": "TypeScript",
-    ".py": "Python", ".html": "HTML", ".htm": "HTML",
-    ".css": "CSS", ".scss": "SCSS", ".sass": "SCSS", ".less": "Less",
+    ".py": "Python",
     ".php": "PHP", ".sql": "SQL", ".sh": "Shell", ".bash": "Shell",
     ".c": "C", ".h": "C", ".cpp": "C++", ".cc": "C++", ".hpp": "C++",
     ".cs": "C#", ".go": "Go", ".rs": "Rust", ".dart": "Dart", ".swift": "Swift",
@@ -38,8 +37,7 @@ EXT = {
 
 COLORS = {
     "Java": "#b07219", "Kotlin": "#A97BFF", "JavaScript": "#f1e05a", "TypeScript": "#3178c6",
-    "Python": "#3572A5", "HTML": "#e34c26", "CSS": "#663399", "SCSS": "#c6538c",
-    "Less": "#1d365d", "PHP": "#4F5D95", "SQL": "#e38c00", "Shell": "#89e051",
+    "Python": "#3572A5", "PHP": "#4F5D95", "SQL": "#e38c00", "Shell": "#89e051",
     "C": "#555555", "C++": "#f34b7d", "C#": "#178600", "Go": "#00ADD8", "Rust": "#dea584",
     "Dart": "#00B4AB", "Swift": "#F05138", "Ruby": "#701516", "Vue": "#41b883",
     "Svelte": "#ff3e00", "Lua": "#000080", "Scala": "#c22d40", "Groovy": "#4298b8",
