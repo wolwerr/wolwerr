@@ -7,11 +7,19 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: github-metrics-main
+  cancel-in-progress: false
+
 jobs:
   languages:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -29,14 +37,28 @@ jobs:
           AFFILIATION: owner
 
       - name: Commitar o SVG
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add github-metrics-languages.svg
-          if git diff --staged --quiet; then
-            echo "Sem mudanças"
-          else
-            git commit -m "chore: atualiza card de linguagens"
-            git pull --rebase origin main
-            git push
+          if git diff --cached --quiet; then
+            echo "Sem mudanças no SVG."
+            exit 0
           fi
+          git commit -m "chore: atualiza card de linguagens"
+          for attempt in 1 2 3; do
+            echo "Tentativa de publicação: $attempt"
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              echo "SVG publicado com sucesso."
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep 5
+            fi
+          done
+          echo "Falha ao publicar o SVG após 3 tentativas."
+          exit 1
