@@ -12,7 +12,7 @@
   <img src="./github-metrics-languages.svg" width="325" alt="Linguagens mais usadas" />
 </p>
 
-<sub>Cards gerados com Python e a API oficial do GitHub, atualizados diariamente pelo GitHub Actions. Linguagens: commits dos últimos 12 meses atribuídos à linguagem principal de cada repositório com contribuições, seguindo o critério do gráfico 3D (até 100 repositórios). Estrelas: repositórios próprios não derivados de forks. As demais métricas seguem o calendário de contribuições do GitHub.</sub>
+<sub>Cards gerados com Python e a API oficial do GitHub, atualizados diariamente pelo GitHub Actions. Linguagens: linhas adicionadas por autores identificados ao longo do histórico dos repositórios próprios, excluindo forks, dependências e arquivos gerados; exibidas as 8 primeiras. Estrelas: repositórios próprios não derivados de forks. As demais métricas seguem o calendário de contribuições do GitHub.</sub>
 
 ##
 
