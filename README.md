@@ -195,9 +195,9 @@
 ##
 
 <p align="center">
-  <img src="./images/metrics/github-contributions-3d.svg" alt="Isometric GitHub contributions calendar" width="100%" />
+  <img src="./profile-3d-contrib/profile-gitblock.svg" alt="GitHub 3D contribution graph" width="100%" />
 </p>
 
 ##
 
-<a href="https://github.com/wolwerr"><img width="100%" src="./images/metrics/github-footer.svg" alt="GitHub footer" /></a>
+<a href="https://github.com/wolwerr"><img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&fontColor=45664567&reversal=true&section=footer" alt="GitHub footer" /></a>
