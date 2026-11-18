@@ -48,7 +48,7 @@ jobs:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
           GH_USER: wolwerr
 
-      - name: Generate trophies, 3D calendar and footer
+      - name: Generate GitHub trophies
         run: python .github/scripts/visual_metrics.py
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
