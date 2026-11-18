@@ -4,7 +4,7 @@
 </div>
 
 ##
-## 📊 Estatísticas do GitHub
+## 📊 GitHub Statistics
 
 <table align="center">
   <tr>
