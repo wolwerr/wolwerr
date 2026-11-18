@@ -17,9 +17,9 @@ from html import escape
 USER = os.environ["GH_USER"]
 TOKEN = os.environ["GH_TOKEN"]
 AUTHORS = [a.strip() for a in os.environ.get("AUTHORS", USER).split(",") if a.strip()]
-OUTPUT = os.environ.get("OUTPUT", "github-metrics-languages.svg")
+OUTPUT = os.environ.get("OUTPUT", "images/metrics/github-metrics-languages.svg")
 LIMIT = int(os.environ.get("LIMIT", "8"))
-TITLE = os.environ.get("TITLE", "Linguagens mais usadas")
+TITLE = os.environ.get("TITLE", "Most Used Languages")
 AFFILIATION = os.environ.get("AFFILIATION", "owner")
 INCLUDE_FORKS = os.environ.get("INCLUDE_FORKS", "0") == "1"
 
@@ -122,7 +122,7 @@ def render(stats):
     top = stats.most_common(LIMIT)
     width, bar_x, bar_w = 325, 25, 275
     rows = math.ceil(len(top) / 2)
-    height = 82 + rows * 22 + 8
+    height = max(155, 82 + rows * 22 + 8)
 
     segments, x = [], bar_x
     for lang, n in top:
@@ -171,6 +171,7 @@ def main():
     print(f"C# contabilizado: {total.get('C#', 0)} linhas adicionadas")
     if not total:
         sys.exit("Nenhuma linha encontrada para esses autores. Confira a variável AUTHORS.")
+    os.makedirs(os.path.dirname(OUTPUT) or ".", exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write(render(total))
     print(f"Gerado {OUTPUT}: {dict(total.most_common(LIMIT))}")
