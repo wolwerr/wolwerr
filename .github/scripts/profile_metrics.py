@@ -112,6 +112,8 @@ def save_svg(filename, inner):
         '<rect width="325" height="155" rx="7" fill="#151a21"/>'
         f'{inner}</svg>\n'
     )
+    filename = os.path.join("images", "metrics", filename)
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename, "w", encoding="utf-8") as output:
         output.write(svg)
     print(f"Gerado {filename}")
@@ -151,32 +153,32 @@ def render_streak(total, first, current, longest):
         '<line x1="216" y1="32" x2="216" y2="125" stroke="#8b949e"/>',
         '<circle cx="162" cy="62" r="27" fill="none" stroke="#7fff00" stroke-width="3"/>',
         svg_text(54, 63, fmt_number(total), 19, "#7fff00", "bold"),
-        svg_text(54, 91, "Contribuições", 10, "#7fff00", "bold"),
+        svg_text(54, 91, "Contributions", 10, "#7fff00", "bold"),
         svg_text(162, 63, str(current_count), 19, "#00bfff", "bold"),
-        svg_text(162, 112, "Sequência atual", 10, "#00bfff", "bold"),
+        svg_text(162, 112, "Current streak", 10, "#00bfff", "bold"),
         svg_text(271, 63, str(long_count), 19, "#7fff00", "bold"),
-        svg_text(271, 91, "Maior sequência", 10, "#7fff00", "bold"),
-        svg_text(54, 111, f"Desde {fmt_date(first)}", 9),
+        svg_text(271, 91, "Longest streak", 10, "#7fff00", "bold"),
+        svg_text(54, 111, f"Since {fmt_date(first)}", 9),
     ]
     if current_start:
-        text.append(svg_text(162, 130, f"Desde {fmt_date(current_start)}", 9))
+        text.append(svg_text(162, 130, f"Since {fmt_date(current_start)}", 9))
     else:
-        text.append(svg_text(162, 130, "Sem sequência ativa", 9))
+        text.append(svg_text(162, 130, "No active streak", 9))
     if long_start:
         text.append(svg_text(271, 111, fmt_date(long_start), 9))
-        text.append(svg_text(271, 125, f"até {fmt_date(long_end)}", 9))
+        text.append(svg_text(271, 125, f"to {fmt_date(long_end)}", 9))
     return "".join(text)
 
 
 def render_stats(year, stars, commits, prs, issues, contributions):
     rows = [
-        ("Estrelas recebidas", fmt_number(stars)),
-        ("Commits no ano", fmt_number(commits)),
-        ("PRs no ano", fmt_number(prs)),
-        ("Issues no ano", fmt_number(issues)),
-        ("Contribuições no ano", fmt_number(contributions)),
+        ("Stars earned", fmt_number(stars)),
+        ("Yearly commits", fmt_number(commits)),
+        ("Yearly PRs", fmt_number(prs)),
+        ("Yearly issues", fmt_number(issues)),
+        ("Yearly contributions", fmt_number(contributions)),
     ]
-    parts = [svg_text(20, 29, f"Estatísticas de {year}", 17, "#7fff00", "bold", "start")]
+    parts = [svg_text(20, 29, f"GitHub Stats {year}", 17, "#7fff00", "bold", "start")]
     for index, (label, value) in enumerate(rows):
         y = 52 + index * 21
         parts.append(svg_text(21, y, label, 11, "#ffffff", "normal", "start"))
