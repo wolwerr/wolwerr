@@ -7,29 +7,12 @@
 ## 📊 Estatísticas do GitHub
 
 <p align="center">
-  <img
-    src="https://github-readme-streak-stats-eight.vercel.app/?user=wolwerr&theme=chartreuse-dark&background=00000000&hide_border=true"
-    width="325"
-    height="155"
-    alt="Sequência de contribuições"
-  />
-  <img
-    src="https://github-stats-extended.vercel.app/api?username=wolwerr&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&commits_year=2026&bg_color=00000000&hide_border=true&custom_title=Estat%C3%ADsticas%20de%202026"
-    width="325"
-    height="155"
-    alt="Estatísticas de 2026"
-  />
-  <img
-    src="https://github-stats-extended.vercel.app/api/top-langs?username=wolwerr&layout=compact&card_width=325&theme=chartreuse-dark&langs_count=8&size_weight=0.5&count_weight=0.5&bg_color=00000000&hide_border=true&custom_title=Linguagens%20mais%20usadas"
-    width="325"
-    height="155"
-    alt="Linguagens mais usadas"
-  />
+  <img src="./github-metrics-streak.svg" width="325" height="155" alt="Contribuições e sequências de atividade no GitHub" />
+  <img src="./github-metrics-stats.svg" width="325" height="155" alt="Estatísticas de commits, PRs, issues e estrelas" />
+  <img src="./github-metrics-languages.svg" width="325" alt="Linguagens mais usadas" />
 </p>
 
-<p align="center">
-  <img src="./github-metrics-languages.svg" alt="Linguagens mais usadas" />
-</p>
+<sub>Cards gerados localmente com Python e a API oficial do GitHub, atualizados diariamente pelo GitHub Actions. Estrelas representam os repositórios próprios não derivados de forks; as demais métricas seguem o calendário de contribuições do GitHub.</sub>
 
 ##
 
