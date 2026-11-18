@@ -37,5 +37,6 @@ jobs:
             echo "Sem mudanças"
           else
             git commit -m "chore: atualiza card de linguagens"
+            git pull --rebase origin main
             git push
           fi
