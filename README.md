@@ -12,7 +12,6 @@
   <img src="./github-metrics-languages.svg" width="325" alt="Linguagens mais usadas" />
 </p>
 
-<sub>Cards gerados com Python e a API oficial do GitHub, atualizados diariamente pelo GitHub Actions. Linguagens: linhas adicionadas por autores identificados ao longo do histórico dos repositórios próprios, excluindo forks, dependências, arquivos gerados, HTML e tecnologias de estilo (CSS, SCSS, Sass e Less); exibidas as 8 primeiras. Estrelas: repositórios próprios não derivados de forks. As demais métricas seguem o calendário de contribuições do GitHub.</sub>
 
 ##
 
