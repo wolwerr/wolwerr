@@ -3,6 +3,12 @@ name: Metrics
 on:
   schedule: [{ cron: "0 3 * * *" }]
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+      - ".github/scripts/languages.py"
+      - ".github/scripts/profile_metrics.py"
 
 permissions:
   contents: write
