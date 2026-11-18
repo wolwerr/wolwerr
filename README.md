@@ -27,6 +27,10 @@
   />
 </p>
 
+<p align="center">
+  <img src="./github-metrics-languages.svg" alt="Linguagens mais usadas" />
+</p>
+
 ##
 
 <p align="center">
