@@ -163,8 +163,6 @@ def main():
         raise RuntimeError("GitHub user not found")
     collection = user["contributionsCollection"]
     make_trophies(collection, user["repositories"]["totalCount"])
-    make_isometric(collection, today)
-    make_banner()
 
 
 if __name__ == "__main__":
