@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="325" height="178" viewBox="0 0 325 178" font-family="'Segoe UI', Ubuntu, Sans-Serif">
-<rect width="325" height="178" rx="4.5" fill="#151a21"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="325" height="162" viewBox="0 0 325 162" font-family="'Segoe UI', Ubuntu, Sans-Serif">
+<rect width="325" height="162" rx="4.5" fill="#151a21"/>
 <text x="25" y="35" font-size="18" font-weight="600" fill="#7fff00">Most Used Languages</text>
 <clipPath id="bar"><rect x="25" y="48" width="275" height="8" rx="4"/></clipPath>
 <rect x="25" y="48" width="275" height="8" rx="4" fill="#333"/>
