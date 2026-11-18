@@ -104,6 +104,15 @@ def count_repo(path):
     return stats
 
 
+def top_authors(path, n=3):
+    out = subprocess.run(
+        ["git", "-C", path, "log", "--all", "--format=%an <%ae>"],
+        capture_output=True, text=True, errors="replace",
+    ).stdout
+    found = Counter(out.splitlines()).most_common(n)
+    return [f"{name} ({count} commits)" for name, count in found] or ["sem commits"]
+
+
 def render(stats):
     total = sum(stats.values())
     top = stats.most_common(LIMIT)
@@ -151,6 +160,8 @@ def main():
                 continue
             stats = count_repo(dest)
             print(f"  {repo['full_name']}: {sum(stats.values())} linhas")
+            if not stats:
+                print("      autores no repositório: " + "; ".join(top_authors(dest)))
             total += stats
     if not total:
         sys.exit("Nenhuma linha encontrada para esses autores. Confira a variável AUTHORS.")
