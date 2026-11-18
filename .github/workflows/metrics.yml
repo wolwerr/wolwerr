@@ -1,25 +1,41 @@
 name: Metrics
+
 on:
   schedule: [{ cron: "0 3 * * *" }]
   workflow_dispatch:
-  push: { branches: [main] }
+
+permissions:
+  contents: write
 
 jobs:
-  github-metrics:
+  languages:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: wolwerr
-          template: classic
-          base: ""
-          filename: github-metrics-languages.svg
-          commits_authoring: wolwerr, ricardo@dtmm.com.br, Ricardo Luis Machado
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 8
-          plugin_languages_recent_days: 365
-          plugin_languages_recent_load: 300
+          python-version: "3.12"
+
+      - name: Gerar card de linguagens
+        run: python .github/scripts/languages.py
+        env:
+          GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
+          GH_USER: wolwerr
+          # nomes ou e-mails usados nos seus commits, separados por vírgula
+          AUTHORS: wolwerr,ricardo@dtmm.com.br,ricardo luis machado
+          LIMIT: "8"
+          # para incluir repositórios de organizações: owner,collaborator,organization_member
+          AFFILIATION: owner
+
+      - name: Commitar o SVG
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add github-metrics-languages.svg
+          if git diff --staged --quiet; then
+            echo "Sem mudanças"
+          else
+            git commit -m "chore: atualiza card de linguagens"
+            git push
+          fi
