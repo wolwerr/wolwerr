@@ -6,11 +6,13 @@
 ##
 ## 📊 Estatísticas do GitHub
 
-<p align="center">
-  <img src="./github-metrics-streak.svg" width="325" height="155" alt="Contribuições e sequências de atividade no GitHub" />
-  <img src="./github-metrics-stats.svg" width="325" height="155" alt="Estatísticas de commits, PRs, issues e estrelas" />
-  <img src="./github-metrics-languages.svg" width="325" alt="Linguagens mais usadas" />
-</p>
+<table align="center">
+  <tr>
+    <td width="33%"><img src="./images/metrics/github-metrics-streak.svg" width="325" height="155" alt="Contribution streak" /></td>
+    <td width="33%"><img src="./images/metrics/github-metrics-stats.svg" width="325" height="155" alt="GitHub statistics" /></td>
+    <td width="33%"><img src="./images/metrics/github-metrics-languages.svg" width="325" height="155" alt="Most used languages" /></td>
+  </tr>
+</table>
 
 
 ##
@@ -184,14 +186,18 @@
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/wolwerr/wolwerr/output/github-contribution-grid-snake.svg">
 </picture>
 
-##  GitHub Trophies
-     
-![](https://github-profile-trophy.vercel.app/?username=wolwerr&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+## GitHub Trophies
+
+<p align="center">
+  <img src="./images/metrics/github-trophies.svg" alt="GitHub achievements" width="100%" />
+</p>
 
 ##
 
-![](./profile-3d-contrib/profile-gitblock.svg)
-     
+<p align="center">
+  <img src="./images/metrics/github-contributions-3d.svg" alt="Isometric GitHub contributions calendar" width="100%" />
+</p>
+
 ##
 
-<a href="https://github.com/wolwerr"><img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&fontColor=45664567&reversal=true&section=footer"/></a>
+<a href="https://github.com/wolwerr"><img width="100%" src="./images/metrics/github-footer.svg" alt="GitHub footer" /></a>
